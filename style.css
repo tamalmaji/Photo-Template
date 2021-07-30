@@ -1,0 +1,63 @@
+@media screen and (min-width: 600px) {
+    .flex{
+        display: flex!important;
+        width: 100%;
+    }
+    .left-side{
+        width: 33.33333%;
+    }
+    .mid-side{
+        width: 33.33333%;
+    }
+    .right-side{ 
+        width: 33.33333%;
+    }
+}
+.p-m{
+    padding: 0;
+    margin: 0;
+}
+.bg-position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-color{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.btn-color:hover{
+    background-color: gray;
+    color: #000;
+}
+.bg-footer-color{
+    height: 200px;
+    color: #000;
+    background-color: #f1f1f1!;
+}
+/* navbar */
+.float{
+    float: right;
+}
+
+/* side menu button */
+.bg{
+    color: white;
+    background: #000;
+    font-size: 36px;
+    animation-duration: 0.4s;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+}
+.button{
+    float: right;
+    font-size: 36px;
+    padding: 8px 16px;
+}
+.btn-position{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

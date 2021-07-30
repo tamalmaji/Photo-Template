@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav -->
+     <nav class="navbar bg" style=" display: none; padding-top: 150px; width: 100%;" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closenav()" class=" btn text-light btn-position"style="padding:6px 24px; font-size: 20px">
+            <i class="fa fa-remove"></i>
+        </a>
+        <ul class="navbar-nav text-center"> 
+            <li class="nav-item">
+                <a href="" class="nav-link text-light">About</a>
+            </li>
+            <li class="nav-item ">
+                <a href="" class="nav-link text-light">Photos</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-light">Shop</a>
+            </li>
+            <li class="nav-item ">
+                <a href="" class="nav-link text-light">Contact</a>
+            </li>
+        </ul> 
+    </nav>
+    <!-- !PAGE CONTENT! -->
+    <!-- Header -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <span class="button" onclick="Opennab()">
+                    <i class="fa fa-bars"></i>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 bg-position" style=" height: 300px;">
+                <h1><b>PHOTOLIO</b></h1>
+                <p><b>A template made by w3.css for photographers.</b></p>
+                <p class="text-center"><button class="btn rounded-0 btn-color" style="padding: 8px 16px;">Toggle Grid Padding</button></p>
+            </div>
+        </div>
+    </div>
+     <!-- Photo Grid -->
+    <div class="container-fluid flex" style="margin-bottom: 128px;">
+        <!-- <div class="row left-side no-gutters">
+            <div class="col-12 ">
+                <img src="img/rocks.jpg" alt="" style="width: 100%;">
+                <img src="img/sound.jpg" alt="" style="width: 100%;">
+                <img src="img/woods.jpg" alt="" style="width: 100%;">
+                <img src="img/rock.jpg" alt="" style="width: 100%;">
+                <img src="img/nature.jpg" alt="" style="width: 100%;">
+                <img src="img/mist.jpg" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row mid-side no-gutters">
+            <div class="col-12">
+                <img src="img/coffee.jpg" alt="" style="width: 100%;">
+                <img src="img/bridge.jpg" alt="" style="width: 100%;">
+                <img src="img/notebook.jpg" alt="" style="width: 100%;">
+                <img src="img/london.jpg" alt="" style="width: 100%;">
+                <img src="img/rocks.jpg" alt="" style="width: 100%;">
+                <img src="img/avatar_g.jpg" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row right-side no-gutters">
+            <div class="col-12">
+                <img src="img/mist.jpg" alt="" style="width: 100%;">
+                <img src="img/workbench.jpg" alt="" style="width: 100%;">
+                <img src="img/gondol.jpg" alt="" style="width: 100%;">
+                <img src="img/skies.jpg" alt="" style="width: 100%;">
+                <img src="img/lights.jpg" alt="" style="width: 100%;">
+                <img src="img/workshop.jpg" alt="" style="width: 100%;">
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/rocks.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/sound.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/woods.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/rock.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/nature.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/mist.jpg" alt="" style="width: 100%;">
+                    </div>
+                </div>                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/coffee.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/bridge.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/notebook.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/london.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/rocks.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+
+                        <img src="img/avatar_g.jpg" alt="" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="img/mist.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/workbench.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/gondol.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/skies.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/lights.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-12">
+                        <img src="img/workshop.jpg" alt="" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-position bg-footer-color p-m">
+               <p class="text-center">
+                    <i class="fa fa-facebook-officialy"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-snapchat"></i>
+                    <i class="fa fa-pinterest-p"></i>
+                    <i class="fa fa-twitter "></i>
+                    <i class="fa fa-linkedin "></i>
+               </p>
+                <p class="text-center">Powered by <a href="#">me</a></p>
+            </div>
+        </div>
+    </footer>
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+     <!-- js -->
+     <script src="main.js"></script>
+ </body>
+ </html>
